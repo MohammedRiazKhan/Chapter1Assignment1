@@ -9,6 +9,15 @@ public class AppTest
     @Test
     public void add()
     {
-        assertEquals(6, 2);
+        int expected = App.add(1, 5);
+        assertEquals(expected, 6);//will pass
     }
+
+    @Test
+    public void subtract()
+    {
+        int expected = App.subtract(12, 6);
+        assertEquals(expected, 6);//will pass
+    }
+
 }
