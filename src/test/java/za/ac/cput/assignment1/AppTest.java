@@ -20,4 +20,10 @@ public class AppTest
         assertEquals(expected, 6);//will pass
     }
 
+     @Test
+    public void multiplicationTest()
+    {
+        int expected = App.multiplication(6, 6);
+        assertEquals(expected, 36);//will pass
+    }
 }
