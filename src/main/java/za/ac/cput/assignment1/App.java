@@ -7,6 +7,7 @@ public class App
         System.out.println("Calculator");
         System.out.println(add(1, 5));
         System.out.println(subtract(12, 6));
+        System.out.println(multiplication(6, 6));
     }
 
     public static int add(int a, int b){
@@ -18,6 +19,12 @@ public class App
     public static int subtract(int a, int b){
 
         return a - b;
+
+    }
+    
+    public static int multiplication(int a, int b){
+
+        return a * b;
 
     }
 }
